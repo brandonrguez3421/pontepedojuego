@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8464C4264E3A2800F095BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C3264E3A2800F095BF /* AppDelegate.swift */; };
+		1F8464C6264E3A2800F095BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C5264E3A2800F095BF /* SceneDelegate.swift */; };
+		1F8464C8264E3A2800F095BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C7264E3A2800F095BF /* ViewController.swift */; };
+		1F8464CB264E3A2800F095BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8464C9264E3A2800F095BF /* Main.storyboard */; };
+		1F8464CD264E3A2A00F095BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8464CC264E3A2A00F095BF /* Assets.xcassets */; };
+		1F8464D0264E3A2A00F095BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8464CE264E3A2A00F095BF /* LaunchScreen.storyboard */; };
+		1F8464DB264E3A2B00F095BF /* PontePedoJuegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464DA264E3A2B00F095BF /* PontePedoJuegoTests.swift */; };
+		1F8464E6264E3A2B00F095BF /* PontePedoJuegoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464E5264E3A2B00F095BF /* PontePedoJuegoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F8464D7264E3A2B00F095BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8464B8264E3A2800F095BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8464BF264E3A2800F095BF;
+			remoteInfo = PontePedoJuego;
+		};
+		1F8464E2264E3A2B00F095BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8464B8264E3A2800F095BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8464BF264E3A2800F095BF;
+			remoteInfo = PontePedoJuego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8464C0264E3A2800F095BF /* PontePedoJuego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontePedoJuego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8464C3264E3A2800F095BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F8464C5264E3A2800F095BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F8464C7264E3A2800F095BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F8464CA264E3A2800F095BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F8464CC264E3A2A00F095BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F8464CF264E3A2A00F095BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F8464D1264E3A2A00F095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8464D6264E3A2B00F095BF /* PontePedoJuegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontePedoJuegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8464DA264E3A2B00F095BF /* PontePedoJuegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontePedoJuegoTests.swift; sourceTree = "<group>"; };
+		1F8464DC264E3A2B00F095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8464E1264E3A2B00F095BF /* PontePedoJuegoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontePedoJuegoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8464E5264E3A2B00F095BF /* PontePedoJuegoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontePedoJuegoUITests.swift; sourceTree = "<group>"; };
+		1F8464E7264E3A2B00F095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8464BD264E3A2800F095BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464D3264E3A2B00F095BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464DE264E3A2B00F095BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8464B7264E3A2800F095BF = {
+			isa = PBXGroup;
+			children = (
+				1F8464C2264E3A2800F095BF /* PontePedoJuego */,
+				1F8464D9264E3A2B00F095BF /* PontePedoJuegoTests */,
+				1F8464E4264E3A2B00F095BF /* PontePedoJuegoUITests */,
+				1F8464C1264E3A2800F095BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8464C1264E3A2800F095BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8464C0264E3A2800F095BF /* PontePedoJuego.app */,
+				1F8464D6264E3A2B00F095BF /* PontePedoJuegoTests.xctest */,
+				1F8464E1264E3A2B00F095BF /* PontePedoJuegoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8464C2264E3A2800F095BF /* PontePedoJuego */ = {
+			isa = PBXGroup;
+			children = (
+				1F8464C3264E3A2800F095BF /* AppDelegate.swift */,
+				1F8464C5264E3A2800F095BF /* SceneDelegate.swift */,
+				1F8464C7264E3A2800F095BF /* ViewController.swift */,
+				1F8464C9264E3A2800F095BF /* Main.storyboard */,
+				1F8464CC264E3A2A00F095BF /* Assets.xcassets */,
+				1F8464CE264E3A2A00F095BF /* LaunchScreen.storyboard */,
+				1F8464D1264E3A2A00F095BF /* Info.plist */,
+			);
+			path = PontePedoJuego;
+			sourceTree = "<group>";
+		};
+		1F8464D9264E3A2B00F095BF /* PontePedoJuegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8464DA264E3A2B00F095BF /* PontePedoJuegoTests.swift */,
+				1F8464DC264E3A2B00F095BF /* Info.plist */,
+			);
+			path = PontePedoJuegoTests;
+			sourceTree = "<group>";
+		};
+		1F8464E4264E3A2B00F095BF /* PontePedoJuegoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8464E5264E3A2B00F095BF /* PontePedoJuegoUITests.swift */,
+				1F8464E7264E3A2B00F095BF /* Info.plist */,
+			);
+			path = PontePedoJuegoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F8464BF264E3A2800F095BF /* PontePedoJuego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8464EA264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuego" */;
+			buildPhases = (
+				1F8464BC264E3A2800F095BF /* Sources */,
+				1F8464BD264E3A2800F095BF /* Frameworks */,
+				1F8464BE264E3A2800F095BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PontePedoJuego;
+			productName = PontePedoJuego;
+			productReference = 1F8464C0264E3A2800F095BF /* PontePedoJuego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F8464D5264E3A2B00F095BF /* PontePedoJuegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8464ED264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuegoTests" */;
+			buildPhases = (
+				1F8464D2264E3A2B00F095BF /* Sources */,
+				1F8464D3264E3A2B00F095BF /* Frameworks */,
+				1F8464D4264E3A2B00F095BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8464D8264E3A2B00F095BF /* PBXTargetDependency */,
+			);
+			name = PontePedoJuegoTests;
+			productName = PontePedoJuegoTests;
+			productReference = 1F8464D6264E3A2B00F095BF /* PontePedoJuegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F8464E0264E3A2B00F095BF /* PontePedoJuegoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8464F0264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuegoUITests" */;
+			buildPhases = (
+				1F8464DD264E3A2B00F095BF /* Sources */,
+				1F8464DE264E3A2B00F095BF /* Frameworks */,
+				1F8464DF264E3A2B00F095BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8464E3264E3A2B00F095BF /* PBXTargetDependency */,
+			);
+			name = PontePedoJuegoUITests;
+			productName = PontePedoJuegoUITests;
+			productReference = 1F8464E1264E3A2B00F095BF /* PontePedoJuegoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8464B8264E3A2800F095BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1F8464BF264E3A2800F095BF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1F8464D5264E3A2B00F095BF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F8464BF264E3A2800F095BF;
+					};
+					1F8464E0264E3A2B00F095BF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F8464BF264E3A2800F095BF;
+					};
+				};
+			};
+			buildConfigurationList = 1F8464BB264E3A2800F095BF /* Build configuration list for PBXProject "PontePedoJuego" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F8464B7264E3A2800F095BF;
+			productRefGroup = 1F8464C1264E3A2800F095BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F8464BF264E3A2800F095BF /* PontePedoJuego */,
+				1F8464D5264E3A2B00F095BF /* PontePedoJuegoTests */,
+				1F8464E0264E3A2B00F095BF /* PontePedoJuegoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F8464BE264E3A2800F095BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8464D0264E3A2A00F095BF /* LaunchScreen.storyboard in Resources */,
+				1F8464CD264E3A2A00F095BF /* Assets.xcassets in Resources */,
+				1F8464CB264E3A2800F095BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464D4264E3A2B00F095BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464DF264E3A2B00F095BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8464BC264E3A2800F095BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8464C8264E3A2800F095BF /* ViewController.swift in Sources */,
+				1F8464C4264E3A2800F095BF /* AppDelegate.swift in Sources */,
+				1F8464C6264E3A2800F095BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464D2264E3A2B00F095BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8464DB264E3A2B00F095BF /* PontePedoJuegoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8464DD264E3A2B00F095BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8464E6264E3A2B00F095BF /* PontePedoJuegoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8464D8264E3A2B00F095BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8464BF264E3A2800F095BF /* PontePedoJuego */;
+			targetProxy = 1F8464D7264E3A2B00F095BF /* PBXContainerItemProxy */;
+		};
+		1F8464E3264E3A2B00F095BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8464BF264E3A2800F095BF /* PontePedoJuego */;
+			targetProxy = 1F8464E2264E3A2B00F095BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F8464C9264E3A2800F095BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8464CA264E3A2800F095BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F8464CE264E3A2A00F095BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8464CF264E3A2A00F095BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F8464E8264E3A2B00F095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F8464E9264E3A2B00F095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F8464EB264E3A2B00F095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F8464EC264E3A2B00F095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F8464EE264E3A2B00F095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuegoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontePedoJuego.app/PontePedoJuego";
+			};
+			name = Debug;
+		};
+		1F8464EF264E3A2B00F095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuegoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontePedoJuego.app/PontePedoJuego";
+			};
+			name = Release;
+		};
+		1F8464F1264E3A2B00F095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PontePedoJuego;
+			};
+			name = Debug;
+		};
+		1F8464F2264E3A2B00F095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5R6C8D4UU;
+				INFOPLIST_FILE = PontePedoJuegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PontePedoJuego;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F8464BB264E3A2800F095BF /* Build configuration list for PBXProject "PontePedoJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8464E8264E3A2B00F095BF /* Debug */,
+				1F8464E9264E3A2B00F095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8464EA264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8464EB264E3A2B00F095BF /* Debug */,
+				1F8464EC264E3A2B00F095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8464ED264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8464EE264E3A2B00F095BF /* Debug */,
+				1F8464EF264E3A2B00F095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8464F0264E3A2B00F095BF /* Build configuration list for PBXNativeTarget "PontePedoJuegoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8464F1264E3A2B00F095BF /* Debug */,
+				1F8464F2264E3A2B00F095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F8464B8264E3A2800F095BF /* Project object */;
+}
