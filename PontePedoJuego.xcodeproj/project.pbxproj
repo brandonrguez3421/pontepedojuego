@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1266DF26559A0000E14F03 /* MessageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1266DE26559A0000E14F03 /* MessageStoryboard.storyboard */; };
+		1F1266E426559D0E00E14F03 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1266E326559D0E00E14F03 /* MessageViewController.swift */; };
+		1F1266E926559EFA00E14F03 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1266E826559EFA00E14F03 /* MessageService.swift */; };
 		1F8464C4264E3A2800F095BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C3264E3A2800F095BF /* AppDelegate.swift */; };
 		1F8464C6264E3A2800F095BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C5264E3A2800F095BF /* SceneDelegate.swift */; };
 		1F8464C8264E3A2800F095BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464C7264E3A2800F095BF /* ViewController.swift */; };
@@ -15,6 +18,11 @@
 		1F8464D0264E3A2A00F095BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8464CE264E3A2A00F095BF /* LaunchScreen.storyboard */; };
 		1F8464DB264E3A2B00F095BF /* PontePedoJuegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464DA264E3A2B00F095BF /* PontePedoJuegoTests.swift */; };
 		1F8464E6264E3A2B00F095BF /* PontePedoJuegoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464E5264E3A2B00F095BF /* PontePedoJuegoUITests.swift */; };
+		1F8464F7264E3A7B00F095BF /* ButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464F6264E3A7B00F095BF /* ButtonBorder.swift */; };
+		1F8464FC264E3AB600F095BF /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8464FB264E3AB600F095BF /* RadialGradientView.swift */; };
+		1F846506264E3CCD00F095BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F846505264E3CCD00F095BF /* SecondViewController.swift */; };
+		1F84650B264E3CE600F095BF /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F84650A264E3CE600F095BF /* SecondStoryboard.storyboard */; };
+		1FFAAAB32718FCD0005BAD06 /* PONTEPEDO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAAAB22718FCD0005BAD06 /* PONTEPEDO.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1266DE26559A0000E14F03 /* MessageStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageStoryboard.storyboard; sourceTree = "<group>"; };
+		1F1266E326559D0E00E14F03 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1F1266E826559EFA00E14F03 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		1F8464C0264E3A2800F095BF /* PontePedoJuego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontePedoJuego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8464C3264E3A2800F095BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F8464C5264E3A2800F095BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		1F8464E1264E3A2B00F095BF /* PontePedoJuegoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontePedoJuegoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8464E5264E3A2B00F095BF /* PontePedoJuegoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontePedoJuegoUITests.swift; sourceTree = "<group>"; };
 		1F8464E7264E3A2B00F095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8464F6264E3A7B00F095BF /* ButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBorder.swift; sourceTree = "<group>"; };
+		1F8464FB264E3AB600F095BF /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		1F846505264E3CCD00F095BF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1F84650A264E3CE600F095BF /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		1FFAAAB22718FCD0005BAD06 /* PONTEPEDO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PONTEPEDO.png; path = ../../../../Downloads/PONTEPEDO.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +119,17 @@
 				1F8464C5264E3A2800F095BF /* SceneDelegate.swift */,
 				1F8464C7264E3A2800F095BF /* ViewController.swift */,
 				1F8464C9264E3A2800F095BF /* Main.storyboard */,
+				1FFAAAB22718FCD0005BAD06 /* PONTEPEDO.png */,
 				1F8464CC264E3A2A00F095BF /* Assets.xcassets */,
 				1F8464CE264E3A2A00F095BF /* LaunchScreen.storyboard */,
 				1F8464D1264E3A2A00F095BF /* Info.plist */,
+				1F8464F6264E3A7B00F095BF /* ButtonBorder.swift */,
+				1F8464FB264E3AB600F095BF /* RadialGradientView.swift */,
+				1F846505264E3CCD00F095BF /* SecondViewController.swift */,
+				1F84650A264E3CE600F095BF /* SecondStoryboard.storyboard */,
+				1F1266DE26559A0000E14F03 /* MessageStoryboard.storyboard */,
+				1F1266E326559D0E00E14F03 /* MessageViewController.swift */,
+				1F1266E826559EFA00E14F03 /* MessageService.swift */,
 			);
 			path = PontePedoJuego;
 			sourceTree = "<group>";
@@ -231,8 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1266DF26559A0000E14F03 /* MessageStoryboard.storyboard in Resources */,
 				1F8464D0264E3A2A00F095BF /* LaunchScreen.storyboard in Resources */,
 				1F8464CD264E3A2A00F095BF /* Assets.xcassets in Resources */,
+				1F84650B264E3CE600F095BF /* SecondStoryboard.storyboard in Resources */,
+				1FFAAAB32718FCD0005BAD06 /* PONTEPEDO.png in Resources */,
 				1F8464CB264E3A2800F095BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F846506264E3CCD00F095BF /* SecondViewController.swift in Sources */,
+				1F8464FC264E3AB600F095BF /* RadialGradientView.swift in Sources */,
 				1F8464C8264E3A2800F095BF /* ViewController.swift in Sources */,
 				1F8464C4264E3A2800F095BF /* AppDelegate.swift in Sources */,
 				1F8464C6264E3A2800F095BF /* SceneDelegate.swift in Sources */,
+				1F1266E926559EFA00E14F03 /* MessageService.swift in Sources */,
+				1F8464F7264E3A7B00F095BF /* ButtonBorder.swift in Sources */,
+				1F1266E426559D0E00E14F03 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,17 +468,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5R6C8D4UU;
 				INFOPLIST_FILE = PontePedoJuego/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuego;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,17 +490,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5R6C8D4UU;
 				INFOPLIST_FILE = PontePedoJuego/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = brandonrubio.PontePedoJuego;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
